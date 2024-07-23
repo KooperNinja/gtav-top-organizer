@@ -43,7 +43,7 @@ const combineList = (...lists: IStartingDrawList[]) => {
     }
     return finalList
 }
-
+/*
 fs.writeFileSync(
     "RAWmaleStartingDrawList.json", 
     JSON.stringify(
@@ -60,6 +60,7 @@ fs.writeFileSync(
         "\t"
     )
 )
+*/
 
 fs.writeFileSync(
     "dlcStartingDraws.json", 
